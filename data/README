@@ -1,0 +1,50 @@
+=====================================================================================================================
+ With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word Sense Disambiguation
+                       		Bianca Scarlini, Tommaso Pasini and Roberto Navigli                 
+                                       		Sapienza NLP group
+			 	   	    Sapienza, University of Rome
+                                  	   Department of Computer Science
+                         	  {scarlini, pasini, navigli} [at] di.uniroma1.it
+=====================================================================================================================
+
+=== The Package ===
+
+. 
+├──ares_bert_large.txt
+└──ares_bert_base_multilingual.txt
+
+This directory contains ARES' embeddings in the English (ares_bert_large.txt) and multilingual version (ares_bert_base_multilingual.txt)
+
+The embedding file is in the word2vec format:
+_the first line contains two values separated by space containing the number of vectors in the file and the size of the vectors. 
+_each subsequent line represents a vector where elements are separated by space and the first component is the id of the sense and the other components are the features.
+
+The embeddings for the English version are computed with BERT large cased and have dimensionality 2048. Their id is the WordNet sense key (https://wordnet.princeton.edu/documentation/senseidx5wn).
+The embeddings for the multilingual version are computed with BERT base multilingual cased and have dimensionality 1536. Their id is the BabelNet synset id.
+
+=== Reference Paper ===
+
+With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word Sense Disambiguation 
+You may download it at http://sensembert.org/resources/scarlini_etal_emnlp2020.pdf
+
+=== License ===
+
+ARES vectors are released under the license:
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+===== You are free to =====
+
+** Share ** — copy and redistribute the material in any medium or format
+
+** Adapt ** — remix, transform, and build upon the material
+
+===== Under the following terms =====
+
+** Attribution ** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+** NonCommercial ** — You may not use the material for commercial purposes.
+
+** ShareAlike ** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+For more information regarding the license please visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
