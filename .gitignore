@@ -125,5 +125,10 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+
+#### Simon
+data/sensembert_data/
+data/ares_embedding/
+
 # Pyre type checker
 .pyre/
