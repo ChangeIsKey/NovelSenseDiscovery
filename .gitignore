@@ -129,6 +129,7 @@ dmypy.json
 #### Simon
 data/sensembert_data/
 data/ares_embedding/
+data/Euka*
 
 # Pyre type checker
 .pyre/
